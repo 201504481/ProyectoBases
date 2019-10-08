@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C6E8661-1D7A-BED4-F4AF-103640F17865" name="Agencia">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:09:46 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<deprecated>true</deprecated>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAgencia" id="434965C8-00A2-0ACF-36D3-514952391ECF">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:14:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="C0676495-3234-3000-2FE6-A2D21B6D92BA">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:14:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idBanco" id="FE1AAE2D-5EA1-EDDD-0FDB-31936225DA25">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:25:59 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7024887-E846-17A6-2932-A248448ACF1E" referredColumn="765E62E0-813E-8B68-CFEC-5BE67C09DDC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1368A633-1792-F267-1AED-42F9A888F2BA" name="Agencia_PK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:14:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="434965C8-00A2-0ACF-36D3-514952391ECF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4032C9ED-4FCD-07E7-E930-D476FEE9C307" name="Agencia_Banco_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:25:59 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE1AAE2D-5EA1-EDDD-0FDB-31936225DA25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

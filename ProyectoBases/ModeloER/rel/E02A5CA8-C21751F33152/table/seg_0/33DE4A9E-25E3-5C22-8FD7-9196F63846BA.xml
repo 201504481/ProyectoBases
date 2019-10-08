@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33DE4A9E-25E3-5C22-8FD7-9196F63846BA" name="Solicitud_Chequera">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:48:59 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>schq</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSolicitud" id="05AE6589-C685-FFDC-DA36-3F4603110874">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:50:11 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="4963FEDB-1C42-4386-AA65-21FF61B4CAE5">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:50:11 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="4712ACC2-5213-3776-21D3-93F5751F9D20">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:50:44 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7444A14C-8C91-795B-D07D-5AEF5327EB05" name="Solicitud_Chequera_PK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:50:11 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05AE6589-C685-FFDC-DA36-3F4603110874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

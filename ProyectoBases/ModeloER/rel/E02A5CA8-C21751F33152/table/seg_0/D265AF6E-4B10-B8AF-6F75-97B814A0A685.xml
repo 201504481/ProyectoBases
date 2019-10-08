@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D265AF6E-4B10-B8AF-6F75-97B814A0A685" name="Rol">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:14:33 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<deprecated>true</deprecated>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRol" id="89D78690-7018-DC2B-B32C-3ED7583DC954">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:15:01 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="2261A826-2B98-F561-3654-7F54D2649398">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:15:01 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="736C3BF2-00F0-2948-DB72-53A1E7322739" name="Rol_PK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:15:01 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89D78690-7018-DC2B-B32C-3ED7583DC954"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

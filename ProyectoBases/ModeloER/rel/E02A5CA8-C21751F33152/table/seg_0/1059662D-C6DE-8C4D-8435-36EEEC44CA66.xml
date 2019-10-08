@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1059662D-C6DE-8C4D-8435-36EEEC44CA66" name="Cheque">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:46:41 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<deprecated>true</deprecated>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>chq</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="noCheque" id="924D8FE1-7EAE-C4E9-8991-27FB68A7B766">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:48:57 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="4857AC6C-4B8C-70EC-CC7F-E62137D0E9D5">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:48:57 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="E2A69BCF-9132-9C2D-F297-9B697C916427">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:48:57 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="8258115B-7F8F-950D-479A-DABA80BC21B4">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:48:57 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="noCuenta" id="15B0F980-F074-FF9C-8457-B133E99A97B8">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:32:14 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="noChequera" id="7BF0800A-4E91-3EFA-FCB9-D1DC93D1F593">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:24:47 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E32D6D9-BC24-0F15-7BE9-AFB061AFFFC7" referredColumn="E0C6BF31-C427-CB53-BDCA-230231EFD413"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="333641F9-1442-225E-1CEB-094A4B7BC32D" name="Cheque_PK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:48:57 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="924D8FE1-7EAE-C4E9-8991-27FB68A7B766"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8884293-DE7A-0796-0EDB-577847A2CE73" name="Cheque_Lote_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:32:14 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BF0800A-4E91-3EFA-FCB9-D1DC93D1F593"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

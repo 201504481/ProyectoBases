@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B42F23A1-2CD4-4424-12B5-6ABE3FEEEA27" name="Lote">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:58:20 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<deprecated>true</deprecated>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>lt</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="noChequera" id="E0C6BF31-C427-CB53-BDCA-230231EFD413">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:59:37 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="F6C811CD-BE81-5B28-A99D-5B9C4D158C92">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:59:37 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="C4858F72-21AA-E1CC-2D52-7D5521AE6FA2">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:59:37 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="3F65940E-7BF5-8C1E-7186-2C2C4B3F1BCF">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:59:37 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A395E93E-44B6-D604-03F3-C6E4093822C6" name="Lote_PK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 10:59:37 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0C6BF31-C427-CB53-BDCA-230231EFD413"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

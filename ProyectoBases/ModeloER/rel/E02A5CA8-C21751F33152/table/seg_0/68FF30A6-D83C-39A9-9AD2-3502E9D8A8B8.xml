@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68FF30A6-D83C-39A9-9AD2-3502E9D8A8B8" name="Transaccion">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:20:03 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<deprecated>true</deprecated>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="noTransaccion" id="BFFF151E-0FCD-04CB-D7A0-DECD582BF393">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:21:55 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="A0E6F737-6D82-6334-DD04-1CCB55259A13">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:21:55 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="B8CC6625-1A5B-3B2F-721C-1BBDCF567155">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:21:55 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rechazo" id="C2CA4C67-A18B-12EE-1BF9-FFCAC3B10F24">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:21:55 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razonRechazo" id="C08EB6B0-AC15-A03B-0833-7BD34A2C4087">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:21:55 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldoInicial" id="F6051A95-5367-5FFD-BC22-60DB0B5EB540">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:21:55 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldoFinal" id="B56BB041-18BE-D303-9183-2DC6B3ADA0FF">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:21:55 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idAgencia" id="7F88B533-807E-E78E-4D98-D548E8719982">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:25:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D28BE8D4-6314-DD4D-7469-AEADBA2216A4" referredColumn="434965C8-00A2-0ACF-36D3-514952391ECF"/>
+</associations>
+</Column>
+<Column name="idUsuario" id="B41207DD-3A42-60D1-B4DE-66E22F341121">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:28:23 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9419B4F1-1F41-CF15-40EA-8314C58C5089" referredColumn="0C7EC1BF-0726-ABD3-1F2B-CBCE431A8C30"/>
+</associations>
+</Column>
+<Column name="noCuentaA" id="4D796B0B-0015-AC91-37EC-8F4CC4C28772">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:31:14 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B5EB321-4279-124C-057F-2804B8857043" referredColumn="8CB781D6-44E3-3A71-37AE-ECBAE9D16113"/>
+</associations>
+</Column>
+<Column name="noCheque" id="D05514E0-8614-67B4-E024-65D401183F0B">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:34:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49A94717-6D9F-8849-8093-DCFB59EB6AE2" referredColumn="924D8FE1-7EAE-C4E9-8991-27FB68A7B766"/>
+</associations>
+</Column>
+<Column name="noCuentaB" id="6FDE3F21-C596-451D-D93E-4A10932A19C2">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:07:14 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E09955A1-A667-E2EF-1485-E20D259425A7" referredColumn="8CB781D6-44E3-3A71-37AE-ECBAE9D16113"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B538A144-2518-66DA-1C0E-17597F07D43B" name="Transaccion_PK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:21:55 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFFF151E-0FCD-04CB-D7A0-DECD582BF393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="052A91AA-4EBC-431A-8E16-9D9799BE596D" name="Transaccion_Agencia_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:25:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F88B533-807E-E78E-4D98-D548E8719982"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14080B53-B01F-7FA1-0081-0BC5D5A7718D" name="Transaccion_Usuario_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:28:23 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B41207DD-3A42-60D1-B4DE-66E22F341121"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08077077-347A-8471-8674-E19EAEAC3F81" name="Transaccion_Cuenta_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:31:14 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D796B0B-0015-AC91-37EC-8F4CC4C28772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3612D38F-0117-1680-8D88-FC4AD6BCFA45" name="Transaccion_Cheque_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:34:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D05514E0-8614-67B4-E024-65D401183F0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A0DE312-6324-955F-F12F-0EB6A9806280" name="Transaccion_Cuenta_FKv2">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:07:14 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FDE3F21-C596-451D-D93E-4A10932A19C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

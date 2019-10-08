@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B25DC7D7-D60B-3F8C-DAAC-B67F33EDB5C4" name="Banco">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:01:13 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<deprecated>true</deprecated>
+<ordsAlias>table_9</ordsAlias>
+<abbreviation>bnc</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idBanco" id="765E62E0-813E-8B68-CFEC-5BE67C09DDC1">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:02:04 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="FCF4827A-F913-4E37-3B65-50B389B617EB">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:02:04 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D9673CF-A1B2-6E51-A245-91F44E151631" name="Banco_PK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:02:04 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="765E62E0-813E-8B68-CFEC-5BE67C09DDC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

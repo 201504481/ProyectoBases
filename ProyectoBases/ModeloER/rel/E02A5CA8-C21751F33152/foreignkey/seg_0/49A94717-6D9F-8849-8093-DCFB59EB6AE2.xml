@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49A94717-6D9F-8849-8093-DCFB59EB6AE2" containerWithKeyObject="68FF30A6-D83C-39A9-9AD2-3502E9D8A8B8" localFKIndex="3612D38F-0117-1680-8D88-FC4AD6BCFA45" name="Transaccion_Cheque_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:34:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<referredTableLongName>Cheque</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>1059662D-C6DE-8C4D-8435-36EEEC44CA66</referredTableID>
+<keyObject>333641F9-1442-225E-1CEB-094A4B7BC32D</keyObject>
+<referredKeyID>333641F9-1442-225E-1CEB-094A4B7BC32D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>noCheque</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

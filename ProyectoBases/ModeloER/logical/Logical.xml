@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AFB046A9-F516-7F32-640D-4A93965AA519" mainViewID="CF864A6C-A775-4CB2-B33A-B4035C1C80C1">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 05:10:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

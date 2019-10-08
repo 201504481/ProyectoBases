@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7024887-E846-17A6-2932-A248448ACF1E" containerWithKeyObject="9C6E8661-1D7A-BED4-F4AF-103640F17865" localFKIndex="4032C9ED-4FCD-07E7-E930-D476FEE9C307" name="Agencia_Banco_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:25:59 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<referredTableLongName>Banco</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>B25DC7D7-D60B-3F8C-DAAC-B67F33EDB5C4</referredTableID>
+<keyObject>5D9673CF-A1B2-6E51-A245-91F44E151631</keyObject>
+<referredKeyID>5D9673CF-A1B2-6E51-A245-91F44E151631</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idBanco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

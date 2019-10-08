@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3017D730-277D-2E69-C2E7-39B94E10E7A7" name="Detalle_Cliente/Cuenta">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:20:30 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="noCuenta" id="803315F5-9A99-F50F-9658-2714F3A829A2">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:21:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="115E10FB-D44B-906B-1B70-15143C34ACB6" referredColumn="8CB781D6-44E3-3A71-37AE-ECBAE9D16113"/>
+</associations>
+</Column>
+<Column name="noCliente" id="042835F7-8263-DC60-5AE9-A312D0485A58">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:21:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA1DC2D8-E124-E7A7-DC0A-1659CA2E943C" referredColumn="28AC9964-BB8A-5820-0BFC-ADAB59647B88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D62EFCED-98A5-CFC1-7FC0-24F1C740216A" name="TABLE_14_Cuenta_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:21:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="803315F5-9A99-F50F-9658-2714F3A829A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A866384-129E-ACE4-EBF1-8F104324EBC3" name="TABLE_14_Cliente_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:21:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="042835F7-8263-DC60-5AE9-A312D0485A58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

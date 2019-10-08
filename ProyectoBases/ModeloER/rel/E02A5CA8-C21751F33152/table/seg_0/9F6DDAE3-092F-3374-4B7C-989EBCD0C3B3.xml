@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F6DDAE3-092F-3374-4B7C-989EBCD0C3B3" name="Detallle_Banco/Lote">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:22:37 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="noChequera" id="078CC3C1-CA79-EAA5-8BD6-6DAF06ECE4E0">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:24:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7CFEB6F-AE18-9550-04C8-FB097C92E5B2" referredColumn="E0C6BF31-C427-CB53-BDCA-230231EFD413"/>
+</associations>
+</Column>
+<Column name="idBanco" id="6A3800E5-1124-B1FF-1EEA-17BFA83E3D7C">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:24:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D81D54FA-C021-A6FA-21CA-B7480012DEDB" referredColumn="765E62E0-813E-8B68-CFEC-5BE67C09DDC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9390BCF-BDF0-568B-9AF4-9652A4B9D1D7" name="TABLE_16_Banco_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:24:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3800E5-1124-B1FF-1EEA-17BFA83E3D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F95DD6D-1A9E-9921-0EA6-35A515D12BDB" name="TABLE_16_Lote_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 13:24:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="078CC3C1-CA79-EAA5-8BD6-6DAF06ECE4E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

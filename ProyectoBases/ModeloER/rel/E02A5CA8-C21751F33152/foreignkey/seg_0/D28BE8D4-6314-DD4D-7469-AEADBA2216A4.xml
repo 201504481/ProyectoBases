@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D28BE8D4-6314-DD4D-7469-AEADBA2216A4" containerWithKeyObject="68FF30A6-D83C-39A9-9AD2-3502E9D8A8B8" localFKIndex="052A91AA-4EBC-431A-8E16-9D9799BE596D" name="Transaccion_Agencia_FK">
+<createdBy>eljul</createdBy>
+<createdTime>2019-09-19 11:25:02 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<referredTableLongName>Agencia</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>9C6E8661-1D7A-BED4-F4AF-103640F17865</referredTableID>
+<keyObject>1368A633-1792-F267-1AED-42F9A888F2BA</keyObject>
+<referredKeyID>1368A633-1792-F267-1AED-42F9A888F2BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAgencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
